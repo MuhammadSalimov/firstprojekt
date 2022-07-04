@@ -313,6 +313,12 @@ img{
     .featuresimg3{
         width: 100%;
     }
+    .abautimg{
+        order: 2;
+    }
+    .paddingtext{
+        padding-left:20px !important;
+    }
 }
 
 .position-relative{
@@ -377,4 +383,42 @@ img{
     width: 40px;
     height: 40px;
     background-color: aqua;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.span1{
+    background-color: rgb(13, 103, 200) !important;
+}
+.span2{
+    background-color:goldenrod !important;
+}
+.span3{
+    background-color:rgb(99, 89, 137) !important;
+}
+.span4{
+    background-color: rgb(24, 153, 44 ) !important;
+}
+
+.mockupimg{
+    text-align: center;
+}
+.mockupimg img{
+    width: 50%;
+}
+
+.iphone2{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    left: 0;
+}
+.iphone3{
+    position: absolute;
+    width: 195px;
+    top: 0;
+    left: 280px;
+    
 }
