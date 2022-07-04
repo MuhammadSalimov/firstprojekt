@@ -1,11 +1,94 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header{
+    background-image: url(..//images/banner-bg-1-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.container{
-    width: 1000px;
-    height: 100vh;
-    margin: 0 auto;
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color:#364cb77a;
+}
+
+.navbarmain{
+    width: 100%;
+    justify-content:center;
+
+}
+.navbar-brand img{
+    width: 200px;
+}
+.bannerheight{
+    height: 950px;
+}
+
+.meulink{
+    font-size: 24px;
+    display: block;
+    margin: 0px 15px;
+}
+
+.foranavbar button{
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    font-weight: 600;
+
+}
+.navbarmain li a{
+    transition-duration: .3s;
+}
+.navbarmain li a:hover{
+    background-color: rgba(240, 248, 255, 0.428);
+}
+
+img{
+    width: 100%;
+}
+.bannertitle{
+    color: white;
+}
+.bannertitle p{
+    font-weight: 700;
+}
+.bannertitle h1{
+    font-weight: 800;
+    margin-bottom: 25px;
+    
+}
+.bannertitle button{
+    border-radius: 20px;
+    border: none;
+    margin: 25px 0px;
+    height: 40px;
+    width: 150px;
+}
+
+.bannerheight{
+    position: relative;
+}
+@media (max-width:768px){
+    .navbarmain{
+      text-align: center;
+    }
+    .foranavbar{
+        width: 100%;
+        justify-content: center;
+    }
+    .navbar-brand img{
+        width: 150px;
+    }
+    img{
+        width: 100%;
+    }
+
+    .bannertitle{
+        
+        text-align: center;
+    }
 }

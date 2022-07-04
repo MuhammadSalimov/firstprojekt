@@ -4,14 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Projekt</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>menu</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="box"> <h1>Git Darsi</h1></div>
-        </div>
-    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="images/logo-1-1.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbarmain">
+                  <li class="nav-item">
+                    <a class="nav-link text-light meulink active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light meulink" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light meulink" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light meulink" href="#">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex foranavbar" role="search">
+                  <button class="btn btn-outline-success btn-light py-2 px-4" type="submit">TRY NOW</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <section id="bannernavbar">
+            <div class="container">
+                <div class="row align-items-center bannerheight">
+                    <div class="col-12 col-md-6 bannerposition">
+                        <div class="bannerimgnav">
+                            <img src="images/banner-1-1.png" alt="banner">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="bannertitle">
+                            <h1>Awesome App <br>Showcase for <br>Businesses</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, veniam.</p>
+                            <div class="btnnav ">
+                                <button class="bg-warning">DISCOVER MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+    </header>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
