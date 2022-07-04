@@ -1,5 +1,5 @@
 header{
-    background-color: rgba(255, 255, 255, 0.292);
+    background-color: rgba(255, 255, 255, 0.588);
     background-image: url(..//images/banner-bg-1-1.png);
     background-size: cover;
     background-position: center;
@@ -179,4 +179,202 @@ img{
         
         text-align: center;
     }
+}
+
+.featuresimg img{
+    width: 30px;
+   
+}
+.featuresimg{
+    width: 24%;
+    text-align: center;
+    padding: 25px 0px 55px 0px;
+    background-color:rgba(88, 160, 249, 0.196) ;
+}
+.featuresimg b{
+    margin-bottom: 25px;
+    color: rgb(88, 161, 249);
+}
+.featuresimg span{
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    display: block;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   padding: 13px;
+   /* border: 1px solid red; */
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: rgb(88, 161, 249);
+}
+
+.featuresimg1 img{
+    width: 30px;
+   
+}
+.featuresimg1{
+    width: 24%;
+    text-align: center;
+    padding: 25px 0px 55px 0px;
+    background-color:rgba(74, 179, 36, 0.26) ;
+}
+.featuresimg1 b{
+    margin-bottom: 25px;
+    color: rgb(53, 176, 31);
+}
+.featuresimg1 span{
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    display: block;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   padding: 13px;
+   /* border: 1px solid red; */
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: rgb(53, 176, 31);
+}
+
+
+.featuresimg2 img{
+    width: 30px;
+   
+}
+.featuresimg2{
+    width: 24%;
+    text-align: center;
+    padding: 25px 0px 55px 0px;
+    background-color:rgba(233, 173, 34, 0.196) ;
+}
+.featuresimg2 b{
+    margin-bottom: 25px;
+    color: rgb(247, 185, 69);
+}
+.featuresimg2 span{
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    display: block;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   padding: 13px;
+   /* border: 1px solid red; */
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: rgb(247, 185, 69);
+
+}
+
+
+.featuresimg3 img{
+    width: 30px;
+   
+}
+.featuresimg3{
+    width: 24%;
+    text-align: center;
+    padding: 25px 0px 55px 0px;
+    background-color:rgba(110, 9, 226, 0.196) ;
+}
+.featuresimg3 b{
+    margin-bottom: 25px;
+    color: rgb(110, 9, 226);
+}
+.featuresimg3 span{
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    display: block;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   padding: 13px;
+   /* border: 1px solid red; */
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: rgb(110, 9, 226);
+
+}
+
+@media(max-width:768px){
+    .mediacenter{
+        justify-content: center;
+    }
+    .featuresimg{
+        width: 100%;
+    }
+    .featuresimg1{
+        width: 100%;
+    }
+    .featuresimg2{
+        width: 100%;
+    }
+    .featuresimg3{
+        width: 100%;
+    }
+}
+
+.position-relative{
+    position: relative;
+}
+
+.leftpng{
+    position: absolute;
+    left: 0;
+    width: 40px;
+    top: 400px;
+}
+.leftpngshape7{
+    position: absolute;
+    width: 20px;
+    left: 20px;
+    top: 510px;
+}
+.wecreativeimg img{
+        width: 20px;
+}
+.wecreativeimg{
+    padding-top: 70px;
+}
+.wecreativeimg h2 {
+    margin: 20px 0px;
+}
+.wecreativeimg span{
+    padding: 5px 0px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 20px 0px;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: rgb(250, 57, 241);
+}
+.wecreativeimg button{
+    border: none;
+    background-color: white;
+    color: rgb(37, 199, 19);
+}
+.abautimg img{
+    width: 100%;
+}
+
+.paddingtext{
+    padding-left: 150px;
+}
+.paddingtext span{
+    background-color: blueviolet;
+}
+.img100 img{
+    width: 100%;
+}
+.borderrspan img{
+    width: 20px;
+}
+.borderrspan span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
 }
