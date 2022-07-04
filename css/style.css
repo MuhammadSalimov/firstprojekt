@@ -483,6 +483,21 @@ img{
     .aboutourteam{
         justify-content: center !important;
     }
+
+    .paraicon{
+        text-align: center;
+
+    }
+    .spangren{
+        text-align: center;
+    }
+
+    .balandlikboxshadow{
+        height: 500px;
+    }
+    .align-items-center1 button{
+        margin: 0px !important;
+    }
 }
 
 .freetrail{
@@ -531,3 +546,4 @@ img{
 .spangren span{
     color: green;
 }
+
