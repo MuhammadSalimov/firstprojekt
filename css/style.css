@@ -409,6 +409,9 @@ img{
     width: 50%;
 }
 
+.balandlikiphone{
+    height: 500px;
+}
 .iphone2{
     position: absolute;
     width: 300px;
@@ -417,8 +420,114 @@ img{
 }
 .iphone3{
     position: absolute;
-    width: 195px;
+    width: 198px;
     top: 0;
     left: 280px;
     
+}
+.borderrspan2{
+    padding-top: 70px;
+}
+.borderrspan2 span{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.coments img{
+    width: 50px;
+    height: 50px;
+}
+.coments{
+   
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+  
+}
+.displayblok{
+    margin: 0px 15px;
+    display: block;
+}
+
+.box-shadow{
+    border: none;
+    width: 32%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+@media(max-width:768px){
+    .box-shadow{
+        width: 95% !important;
+        margin: 5px 0px !important;
+        margin-left: 10px;
+    }
+    .coments{
+       
+        display: flex;
+        /* width: 50%; */
+        justify-content: space-between;
+      
+    }
+    .aboutourteam{
+        justify-content: center !important;
+    }
+}
+
+.freetrail{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.zidindex{
+    z-index: 100;
+}
+.box-shadow12{
+  
+    display: flex;
+    align-items: center;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.box-shadow12 h1{
+    margin: 30px 0px 15px 0px;
+}
+.align-items-center1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 198px;
+  
+}
+.logo img{
+    width: 100px;
+}
+
+.paraicon i{
+    color: green;
+}
+
+.paraicon p{
+    font-weight: 500;
+}
+#lastsection{
+    background-color: rgb(244, 247, 247);
+}
+
+.spangren span{
+    color: green;
 }
